@@ -1,10 +1,10 @@
 # P1: Python practice 
 
-**Assigned**: Jan 31, 2025
+**Assigned**: Sep 5, 2025
 
-**Due**: Feb 7, 2025 2:59PM
+**Due**: Sep 19, 2025 2:59PM
 
-**Late deadline**: Feb 10th, 2025 11:59PM
+**Late deadline**: Sep 22nd, 2025 11:59PM
 
 ## Description
 
