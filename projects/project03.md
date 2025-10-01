@@ -1,10 +1,10 @@
 # P3: Movie Ratings Database
 
-**Assigned**: February 21th
+**Assigned**: October 3
 
-**Deadline**: March 7th, 2:59 PM Eastern
+**Deadline**: October 10, 2:59 PM EST
 
-**Late deadline**: March 10th 11:59 PM Eastern
+**Late deadline**: October 13, 11:59 PM EST
 
 ## Description
 
