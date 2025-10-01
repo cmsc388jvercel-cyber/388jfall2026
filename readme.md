@@ -6,3 +6,4 @@
 # Project links
  - [Project 1](https://classroom.github.com/a/OIhj8XjL) ([README](projects/project01.md))
  - [Project 2](https://classroom.github.com/a/6ZWiSsql) ([README](projects/project02.md))
+ - [Project 3](https://classroom.github.com/a/7ruFIcxo) ([README](projects/project03.md))
