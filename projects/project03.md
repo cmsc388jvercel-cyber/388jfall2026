@@ -2,9 +2,9 @@
 
 **Assigned**: October 3
 
-**Deadline**: October 10, 2:59 PM EST
+**Deadline**: October 17, 2:59 PM EST
 
-**Late deadline**: October 13, 11:59 PM EST
+**Late deadline**: October 20, 11:59 PM EST
 
 ## Description
 
