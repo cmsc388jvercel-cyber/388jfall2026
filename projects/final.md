@@ -31,7 +31,7 @@ Both the Proposal and Writeup use this document as a template (your writeup will
 
 **Due dates (unless specified elsewhere):**
 
-Proposal: April 11th, 2025
+Proposal: TBA
 
 * We **highly recommend** you complete this as early as possible so you have more time to work on the project. We will review your proposal within 1-2 days of submission.
 
