@@ -1,6 +1,6 @@
-## Redis Caching Demo
+# Redis Caching Demo
 
-### Setup
+## Setup
 
 1. Install everything in `requirements.txt`. Install `redis` and `redis-server`. Instructions depend on OS.
 
@@ -8,9 +8,9 @@
 
 3. Run `python3 app.py` to run a Flask server.
 
-### Operation
+## Operation
 
-Example POST requests:
+Example `POST` requests:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -27,7 +27,7 @@ curl -X POST -H "Content-Type: application/json" \
 curl http://localhost:5000/items
 ```
 
-### Credits
+## Credit
 
 Original code, used with revisions: https://medium.com/@fahadnujaimalsaedi/using-flask-and-redis-to-optimize-web-application-performance-34a8ae750097 
 
