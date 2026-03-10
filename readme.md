@@ -1,7 +1,7 @@
 # CMSC388J: Building Secure Web Applications
 ### (Fall 2025)
 
-## [Class page: https://cmsc388j.vercel.app](https://cmsc388j.vercel.app)
+## [Class page: https://cmsc388j.vercel.app](https://vercel-iota-flax.vercel.app/388j)
 
 # Project links
  - [Project 1](https://classroom.github.com/a/OIhj8XjL) ([README](projects/project01.md))
