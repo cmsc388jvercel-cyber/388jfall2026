@@ -1,10 +1,10 @@
 # P1: Python practice 
 
-**Assigned**: Sep 5, 2025
+**Assigned**: Sep 5, 2026
 
-**Due**: Sep 19, 2025 2:59PM
+**Due**: Sep 11, 2026 11:59PM
 
-**Late deadline**: Sep 22nd, 2025 11:59PM
+**Late deadline**: Sep 14, 2026 11:59PM
 
 ## Description
 
@@ -165,21 +165,14 @@ You should see your test results in the terminal.
 
 ## Submission & Grading
 
-We'll be using Github Classroom for this project and all other projects in this class.
+We'll be using Gradescope for this project and all other projects in this class.
 
-> [!IMPORTANT]
-> Log into your Gradescope account and go to your account settings. Scroll down to the `Linked Accounts` section. If you do not already
-> have your GitHub account linked here, click the `Link a GitHub account` button and log into your GitHub account.
+Whenever you want to submit your project to Gradescope, you will need to upload a zip of your completed project. Follow these steps to do so:
 
-Whenever you want to submit your project to Gradescope, you will need to push your latest version to your repo. Follow these steps to do so:
+1. Make sure all your files (including `practice.py`) are saved in your `p1/` project directory.
+2. Zip the contents of your `p1/` directory (not the parent folder — the files themselves should be at the root of the zip).
+3. Go to Gradescope, select the P1 assignment, and upload your zip file.
 
-First, make sure all your changes are pushed to GitHub using the git add, git commit, and git push commands.
-
-Next, to submit your project, you can run `submit` from your project directory.
-> [!NOTE]
-> you will need to have `opam` package `gradescope-submit` installed. If you don't have it on your system from 330, you can use the UI on Gradescope to link your Github repository or you can look at the 330 project0 readme for [installation instructions](https://github.com/cmsc330fall23/cmsc330fall23/blob/main/projects/project0.md#windows).
-
-The submit command will pull your code from GitHub, not your local files. If you do not push your changes to GitHub, they will not be uploaded to Gradescope.
-
+You can resubmit as many times as you'd like before the deadline; only your latest submission will be graded.
 
 There are **130** possible points: 13 public tests worth 10 points each.
