@@ -1,10 +1,10 @@
 # P4: Movie Ratings Database Pro Max Plus S
 
-**Assigned**: October 26th
+**Assigned**: October 23rd
 
-**Due**: November 7th, 2:59 PM
+**Due**: November 6th, 11:59 PM
 
-**Late Deadline**: November 10th, 11:59 PM
+**Late Deadline**: November 9th, 11:59 PM
 
 ## Description
 
@@ -239,28 +239,6 @@ will use the `run.py` file.
 We've listed all the requirements above, in high detail. Make sure you fill
 out all of those requirements, and that you display errors relevant to each
 page properly, and that the `current_user` object is used where needed.
-
-
-## Submissions
-
-Assure that you've tried out all the different things that could go wrong and that they
-are behaving appropriately (and the things that are supposed to work, still do).
-
-We'll be using Github Classroom for this project and all other projects in this class.
-
-> [!IMPORTANT]
-> Log into your Gradescope account and go to your account settings. Scroll down to the `Linked Accounts` section. If you do not already
-> have your GitHub account linked here, click the `Link a GitHub account` button and log into your GitHub account.
-
-Whenever you want to submit your project to Gradescope, you will need to push your latest version to your repo. Follow these steps to do so:
-
-First, make sure all your changes are pushed to GitHub using the git add, git commit, and git push commands.
-
-Next, to submit your project, you can run `submit` from your project directory.
-> [!NOTE]
-> you will need to have `opam` package `gradescope-submit` installed. If you don't have it on your system from 330, you can use the UI on Gradescope to link your Github repository.
-
-The submit command will pull your code from GitHub, not your local files. If you do not push your changes to GitHub, they will not be uploaded to Gradescope.
 
 ## Grading
 
