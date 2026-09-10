@@ -1,10 +1,10 @@
 # P2: First Flask App - Poke-Info
 
-**Assigned**: September 23
+**Assigned**: September 11
 
-**Due**: September 28, 11:59 PM
+**Due**: September 25, 11:59 PM
 
-**Late Deadline**: October 1, 11:59 PM
+**Late Deadline**: September 28, 11:59 PM
 
 ## Description
 
@@ -129,24 +129,6 @@ ability info to go back to the frontpage of our website.
 
 If you check a few pokemon and abilities throughout the entire list, you should be fine, 
 because its fairly certain that your logic is sound at that point.
-
-## Submission
-
-We'll be using Github Classroom for this project and all other projects in this class.
-
-> [!IMPORTANT]
-> Log into your Gradescope account and go to your account settings. Scroll down to the `Linked Accounts` section. If you do not already
-> have your GitHub account linked here, click the `Link a GitHub account` button and log into your GitHub account.
-
-Whenever you want to submit your project to Gradescope, you will need to push your latest version to your repo. Follow these steps to do so:
-
-First, make sure all your changes are pushed to GitHub using the git add, git commit, and git push commands.
-
-Next, to submit your project, you can run `submit` from your project directory.
-> [!NOTE]
-> you will need to have `opam` package `gradescope-submit` installed. If you don't have it on your system from 330, you can use the UI on Gradescope to link your Github repository.
-
-The submit command will pull your code from GitHub, not your local files. If you do not push your changes to GitHub, they will not be uploaded to Gradescope.
 
 ## Grading
 
