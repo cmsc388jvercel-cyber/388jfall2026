@@ -4,7 +4,7 @@
 
 **Deadline**: October 16, 11:59 PM EST
 
-**Late deadline**: October 17, 11:59 PM EST
+**Late deadline**: October 19, 11:59 PM EST
 
 ## Description
 
