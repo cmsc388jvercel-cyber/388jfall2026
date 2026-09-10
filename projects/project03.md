@@ -1,10 +1,10 @@
 # P3: Movie Ratings Database
 
-**Assigned**: October 3
+**Assigned**: October 2
 
-**Deadline**: October 17, 2:59 PM EST
+**Deadline**: October 16, 11:59 PM EST
 
-**Late deadline**: October 20, 11:59 PM EST
+**Late deadline**: October 17, 11:59 PM EST
 
 ## Description
 
@@ -131,27 +131,6 @@ reviews below that. If the movie detail retrieval fails, the error message for t
 be displayed, without any of the reviews or the form being displayed.
 
 The navbar header should take you back to the main page, where you can search for more movies.
-
-## Submissions
-
-Assure that you've tried out all the different things that could go wrong and that they
-are behaving appropriately (and the things that are supposed to work, still do).
-
-We'll be using Github Classroom for this project and all other projects in this class.
-
-> [!IMPORTANT]
-> Log into your Gradescope account and go to your account settings. Scroll down to the `Linked Accounts` section. If you do not already
-> have your GitHub account linked here, click the `Link a GitHub account` button and log into your GitHub account.
-
-Whenever you want to submit your project to Gradescope, you will need to push your latest version to your repo. Follow these steps to do so:
-
-First, make sure all your changes are pushed to GitHub using the git add, git commit, and git push commands.
-
-Next, to submit your project, you can run `submit` from your project directory.
-> [!NOTE]
-> you will need to have `opam` package `gradescope-submit` installed. If you don't have it on your system from 330, you can use the UI on Gradescope to link your Github repository.
-
-The submit command will pull your code from GitHub, not your local files. If you do not push your changes to GitHub, they will not be uploaded to Gradescope.
 
 ## Grading
 
