@@ -1,8 +1,8 @@
 # P2: First Flask App - Poke-Info
 
-**Assigned**: September 11
+**Assigned**: September 11th
 
-**Due**: September 25, 11:59 PM
+**Due**: September 25th, 11:59 PM
 
 **Late Deadline**: September 28, 11:59 PM
 
