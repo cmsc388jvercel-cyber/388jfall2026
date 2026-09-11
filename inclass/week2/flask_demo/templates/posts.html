@@ -1,1 +1,16 @@
 {# Child template that extends base.html and renders a dynamic feed of posts. #}
+
+{% extends "base.html" %}
+
+{% block content %}
+
+
+
+{% for post in posts %}
+    <a href=" {{ url_for('show_profile', username=post.user) }}">
+        <h3> {{ post.user }} </h3>
+    </a>
+    <b>{{ post.text }}</b>
+    <p>{{ post.likes }}</p>
+{% endfor %}
+{% endblock %}

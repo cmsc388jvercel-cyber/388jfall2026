@@ -1,1 +1,9 @@
 <!-- Shared page skeleton that other templates will extend. -->
+<html>
+    <head>
+        <title> {% if title %} {{title}} {% else %} My website! {% endif %}</title>
+    </head>
+    <body>
+        {% block content %} <h1> Content</h1> {% endblock %}
+    </body>
+</html>
