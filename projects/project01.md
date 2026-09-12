@@ -108,7 +108,8 @@ In `practice.py`, implement the following functions:
     60
     ```
 
-'two_sum(nums, target)'
+
+`two_sum(nums, target)`
     Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
     Arguments:
     nums -- a list of integers
