@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+{% if registered %}
+    <div class="alert alert-success">Registered as {{ registered }}</div>
+{% endif %}
+<h1>Register</h1>
+
+<form action="/register" method="post" novalidate>
+    {{ form.csrf_token }}
+    {% for error in form.csrf_token.errors %}
+        <div class="alert alert-danger">{{ error }}</div>
+    {% endfor %}
+
+    <p>{{ form.username.label }}: {{ form.username(size=40) }}</p>
+    {% if form.username.errors %}
+        <div class="alert alert-warning" role="alert">
+            {% for error in form.username.errors %}
+                <span>{{ error }}</span>
+            {% endfor %}
+        </div>
+    {% endif %}
+
+    <p>{{ form.password.label }}: {{ form.password(size=40) }}
+    {% for error in form.password.errors %}<span class="text-danger">{{ error }}</span>{% endfor %}</p>
+
+    {{ form.submit() }}
+</form>
+{% endblock %}
