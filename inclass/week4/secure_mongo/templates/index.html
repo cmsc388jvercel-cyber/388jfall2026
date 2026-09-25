@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+{% if message %}
+    <div class="alert alert-success">{{ message }}</div>
+{% endif %}
+<h1>Welcome to the website!</h1>
+
+<!-- novalidate turns off the browser's own checks, so we can see
+     the server-side errors Flask-WTF produces -->
+<form action="/" method="post" novalidate>
+    {{ form.csrf_token }}
+    {% for error in form.csrf_token.errors %}
+        <div class="alert alert-danger">{{ error }}</div>
+    {% endfor %}
+
+    <p>{{ form.name.label }}: {{ form.name(size=40) }}
+    {% for error in form.name.errors %}<span class="text-danger">{{ error }}</span>{% endfor %}</p>
+
+    <p>{{ form.location.label }}: {{ form.location(size=60) }}
+    {% for error in form.location.errors %}<span class="text-danger">{{ error }}</span>{% endfor %}</p>
+
+    <p>{{ form.age.label }}: {{ form.age() }}
+    {% for error in form.age.errors %}<span class="text-danger">{{ error }}</span>{% endfor %}</p>
+
+    {{ form.submit() }}
+</form>
+<p class="mt-3"><a href="/users">See everyone who has signed up</a> · <a href="/register">Register</a></p>
+{% endblock %}

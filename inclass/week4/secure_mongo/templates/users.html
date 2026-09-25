@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Everyone who signed up</h1>
+<table class="table">
+    <thead><tr><th>Name</th><th>Location</th><th>Age</th></tr></thead>
+    <tbody>
+    {% for user in users %}
+        <tr><td>{{ user.name }}</td><td>{{ user.location }}</td><td>{{ user.age }}</td></tr>
+    {% else %}
+        <tr><td colspan="3">Nobody yet. Submit the form on the front page.</td></tr>
+    {% endfor %}
+    </tbody>
+</table>
+<a href="/">Back</a>
+{% endblock %}
