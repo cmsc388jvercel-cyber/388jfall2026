@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Week 5 Demo</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 640px; margin: 40px auto; font-size: 20px; }
+    nav a { margin-right: 16px; }
+    .flash { background: #fdf3d0; padding: 8px 12px; border-radius: 4px; }
+    .error { color: #b00020; font-size: 16px; }
+    input, textarea { font-size: 18px; margin: 4px 0 8px 0; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="{{ url_for('index') }}">Home</a>
+    {% if current_user.is_authenticated %}
+      <a href="{{ url_for('notes') }}">My notes</a>
+      <a href="{{ url_for('logout') }}">Log out ({{ current_user.username }})</a>
+    {% else %}
+      <a href="{{ url_for('register') }}">Register</a>
+      <a href="{{ url_for('login') }}">Log in</a>
+    {% endif %}
+  </nav>
+  <hr>
+  {% for message in get_flashed_messages() %}
+    <p class="flash">{{ message }}</p>
+  {% endfor %}
+  {% block content %}{% endblock %}
+</body>
+</html>
