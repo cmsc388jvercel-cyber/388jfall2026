@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+  <h1>Hello, {{ current_user.username }}</h1>
+  {% if pic %}
+    <img class="avatar" src="{{ pic }}" alt="profile picture">
+  {% else %}
+    <p>No profile picture yet.</p>
+  {% endif %}
+  <form method="POST" enctype="multipart/form-data">
+    {{ form.hidden_tag() }}
+    {{ form.picture.label }}<br>{{ form.picture() }}
+    {% for error in form.picture.errors %}<div class="error">{{ error }}</div>{% endfor %}
+    <br>{{ form.submit() }}
+  </form>
+{% endblock %}
