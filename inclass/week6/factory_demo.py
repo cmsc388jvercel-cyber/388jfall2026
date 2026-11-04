@@ -1,7 +1,7 @@
 # factory_demo.py -- Week 6, Part 2: two apps from one factory.
-# Runs without Mongo running: python3 factory_demo.py
+# Never contacts the database, so it runs even without your Atlas string: python3 factory_demo.py
 import os
-os.environ.setdefault("MONGO_URI", "mongodb://localhost/week6")
+os.environ.setdefault("MONGO_URI", "mongodb+srv://placeholder.invalid/week6")
 
 from flask_app import create_app
 
