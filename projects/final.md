@@ -1,7 +1,7 @@
 
 ## CMSC 388J Final Project Proposal
 
-**Group Members (1-5 members):**
+**Group Members (1-4 members):**
 
 
 ```
@@ -31,7 +31,7 @@ Both the Proposal and Writeup use this document as a template (your writeup will
 
 **Due dates (unless specified elsewhere):**
 
-Proposal: TBA
+Proposal: Nov 20th
 
 * We **highly recommend** you complete this as early as possible so you have more time to work on the project. We will review your proposal within 1-2 days of submission.
 
