@@ -4,10 +4,6 @@
 **Group Members (1-4 members):**
 
 
-```
-Select your group members in gradescope!!!
-```
-
 **Directions:**
 
 Read the project specifications and fill out all the questions **in gradescope!**
